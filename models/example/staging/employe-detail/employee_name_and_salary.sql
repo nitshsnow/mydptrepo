@@ -8,5 +8,5 @@ WITH source AS (
 SELECT *
 FROM source
 ORDER BY salary DESC
-LIMIT 1
+LIMIT 2
 
