@@ -1,0 +1,12 @@
+version: 2
+
+sources:
+  - name: employee-detail
+    description: "Aquaring Employee Details"
+    database: DEV 
+    schema: RAW_DATA
+    loader: sql
+    loaded_at_field: loaded_at
+    tables:
+      - name: employee
+      - name: location
