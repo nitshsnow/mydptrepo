@@ -1,4 +1,4 @@
-{{config(materialized='table', alias='Payment_Method_agg')}}
+{{config(materialized='table', alias='Method_agg')}}
 
 SELECT
     ORDER_ID,
