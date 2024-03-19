@@ -7,4 +7,4 @@ SELECT
     {% endfor %}
     SUM(amount) AS total_amount
 FROM raw_data.PAYMENTS
-GROUP BY ORDER_ID;
+GROUP BY ORDER_ID
